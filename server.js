@@ -13,7 +13,7 @@ app.post("/",function(req,res)
 {
    var n1 = Number(req.body.num1) ;
    var n2 = Number(req.body.num2) ;
-   var result = n1/(n2*n2) ;
+   var result = n1/n2 ;
    res.send("The result is : "+result);
 });
 
